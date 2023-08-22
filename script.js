@@ -45,6 +45,8 @@ const generateResponse = () => {
       console.log(error);
     });
 };
+
+// handleChat function
 const handleChat = () => {
   userMessage = chatInput.value.trim();
   if (!userMessage) return;
