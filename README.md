@@ -5,4 +5,4 @@
 
  ## Demo Screenshots
 
- ![Chatbot Demo](./readme-images/chatbot.png "Demo")
+ ![Chatbot Demo](./readme-images/chatBot.png "Demo")
