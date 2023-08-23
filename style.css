@@ -23,6 +23,10 @@ body {
   cursor: pointer;
   background: #724ae8;
   border-radius: 50%;
+  transition: all 0.2s ease;
+}
+.show-chatbot .chatbot-toggler {
+  transform: rotate(90deg);
 }
 .chatbot-toggler span {
   position: absolute;
@@ -46,8 +50,10 @@ body {
   overflow: hidden;
   background: #ffff;
   border-radius: 15px;
+  transform-origin: botton right;
   box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
     0 32px 64px -48px rgba(0, 0, 0, 0.5);
+  transition: all 0.1s ease;
 }
 .show-chatbot .chatbot {
   transform: scale(1);
@@ -97,10 +103,17 @@ body {
 }
 .chatbox .chat p {
   color: #fff;
+  /* max-width: 75%; */
+  /* white-space: pre-wrap; */
   font-size: 0.95rem;
   padding: 12px 16px;
   border-radius: 10px 10px 0 10px;
   background: #724ae8;
+}
+
+.chatbot .chat p.error {
+  color: #721c24;
+  background: #f8d7da;
 }
 .chatbox .incoming p {
   color: #000;
@@ -122,6 +135,7 @@ body {
   height: 55px;
   width: 100%;
   border: none;
+  max-height: 180px;
   outline: none;
   font-size: 0.95rem;
   resize: none;
