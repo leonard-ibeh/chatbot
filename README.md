@@ -11,3 +11,8 @@
 - **Interactive chat interface.**
 - **Real-time responses from an external API.**
 - **User-friendly design with CSS styling.**
+
+## Technologies Used
+- **HTML**
+- **CSS**
+- **JavaScript**
