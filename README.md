@@ -6,3 +6,8 @@
  ## Demo Screenshots
 
  ![Chatbot Demo](./readme-images/chatBot.png "Demo")
+
+## Features
+- **Interactive chat interface.**
+- **Real-time responses from an external API.**
+- **User-friendly design with CSS styling.**
